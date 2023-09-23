@@ -9,8 +9,10 @@ import HomeView from "../src/views/HomeView/HomeView.vue";
     <div class="wrapper">
 
       <nav>
-        <RouterLink to="/">Home</RouterLink>
-        <RouterLink to="/about">About</RouterLink>
+
+        <RouterLink class="text"  to="/">Home</RouterLink>
+
+        <RouterLink class="text" to="/cart"> Shop Cart</RouterLink>
       </nav>
 
       <HomeView/>
@@ -23,5 +25,9 @@ import HomeView from "../src/views/HomeView/HomeView.vue";
 </template>
 
 <style scoped>
+
+.text {
+  text-decoration: none;
+}
 
 </style>

@@ -42,7 +42,7 @@ const fetchImg = () => {
           <p>  {{item.bulldog}}</p>
         </li>
         <li class="list" v-for="img in apiImg">
-          <img :src="img" alt="dog"/>
+          <img :src="img" alt="dog" width="200" height="200"/>
         </li>
       </ul>
     </div>
