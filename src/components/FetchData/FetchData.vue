@@ -28,8 +28,7 @@ const fetchImg = () => {
       })
 }
 
-console.log(apiData);
-console.log(apiImg);
+
 
 </script>
 
@@ -40,7 +39,7 @@ console.log(apiImg);
     <div v-if="apiData">
       <ul>
         <li class="list" v-for="item in apiData">
-          <p>{{item.bulldog}}</p>
+          <p>  {{item.bulldog}}</p>
         </li>
         <li class="list" v-for="img in apiImg">
           <img :src="img" alt="dog"/>
