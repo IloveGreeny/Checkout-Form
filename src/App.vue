@@ -1,6 +1,6 @@
 <script setup>
-import { RouterLink, RouterView } from 'vue-router'
-import CheckoutForm from "../src/components/CheckoutForm/CheckoutForm.vue";
+import { RouterLink, RouterView } from 'vue-router';
+import HomeView from "../src/views/HomeView/HomeView.vue";
 
 </script>
 
@@ -8,18 +8,18 @@ import CheckoutForm from "../src/components/CheckoutForm/CheckoutForm.vue";
   <header>
     <div class="wrapper">
 
-      <CheckoutForm/>
-
-
-
       <nav>
         <RouterLink to="/">Home</RouterLink>
         <RouterLink to="/about">About</RouterLink>
       </nav>
+
+      <HomeView/>
+
+
     </div>
   </header>
 
-  <RouterView />
+
 </template>
 
 <style scoped>
