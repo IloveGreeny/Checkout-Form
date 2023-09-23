@@ -1,5 +1,4 @@
 <script setup>
-import {RouterView} from "vue-router";
 import FetchData from "../../components/FetchData/FetchData.vue";
 </script>
 
@@ -15,7 +14,6 @@ import FetchData from "../../components/FetchData/FetchData.vue";
       </h1>
     <FetchData/>
   </div>
-  <RouterView/>
 </template>
 
 

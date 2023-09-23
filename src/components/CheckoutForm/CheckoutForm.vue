@@ -1,5 +1,7 @@
 <script setup>
 
+import OrderSummary from "../../components/OrderSummary/OrderSummary.vue";
+
 const payment = () => {
   console.log("Payment Confirmed")
 }
@@ -29,6 +31,8 @@ const payment = () => {
       <button @click="payment()">Confirm Payment</button>
     </main>
   </div>
+
+  <OrderSummary/>
 
 
 </template>

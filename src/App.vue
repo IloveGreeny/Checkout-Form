@@ -1,6 +1,6 @@
 <script setup>
-import { RouterLink, RouterView } from 'vue-router';
-import HomeView from "../src/views/HomeView/HomeView.vue";
+import { RouterLink,RouterView } from 'vue-router';
+
 
 </script>
 
@@ -14,9 +14,7 @@ import HomeView from "../src/views/HomeView/HomeView.vue";
 
         <RouterLink class="text" to="/cart"> Shop Cart</RouterLink>
       </nav>
-
-      <HomeView/>
-
+      <RouterView/>
 
     </div>
   </header>

@@ -1,5 +1,5 @@
 import { createRouter, createWebHistory } from 'vue-router'
-import App from "../App.vue";
+import HomeView from "../views/HomeView/HomeView.vue";
 import CheckoutForm from "../components/CheckoutForm/CheckoutForm.vue";
 
 const router = createRouter({
@@ -8,7 +8,7 @@ const router = createRouter({
     {
       path: '/',
       name: 'home',
-      component: App,
+      component: HomeView,
     },
     {
       path: '/cart',
